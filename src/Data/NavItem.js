@@ -24,6 +24,19 @@ import c4 from '../imgs/c4.jpg'
 import c5 from '../imgs/c5.jpeg'
 import c6 from '../imgs/c6.jpg'
 
+import s1 from '../imgs/clients/c3.png'
+
+import cert1 from '../imgs/clients/certification1.jpg'
+import cert2 from '../imgs/clients/certification2.jpg'
+import cert3 from '../imgs/clients/certification3jpg.png'
+import cert4 from '../imgs/clients/certification4.jpg'
+import cert5 from '../imgs/clients/certification5.jpg'
+import cert6 from '../imgs/clients/certification6.jpg'
+import cert7 from '../imgs/clients/certification8.jpg'
+import cert8 from '../imgs/clients/certification9.jpg'
+
+
+
 
 export const Services = [
     {
@@ -329,3 +342,31 @@ export const firstDropdowns = [
          "Our enterprise intelligence methods improve decision-making, resulting in a higher return on your information assets.",
      },
    ];
+
+   export const partnerships =[
+    {
+        id:1,
+        img:s1,
+        title:"Avenues is a Cloudera System Integration partner",
+        description:"Avenues center of excellence in Cloud technologies focuses on Hadoop. Cloudera is the leader in Apache Hadoop-based software and services and offers a powerful new data platform that enables enterprises and organizations to look at all their data — structured as well as unstructured.",
+        
+    },
+    {
+      id:2,
+      img:s1,
+      title:"Avenues is a Services partner with IRI, The CoSort Company",
+      description:"By virtue of this partnership, we better serve our clients in implementing their Big Data Solutions on AWS Cloud Hosting.",
+      
+  },
+  {
+    id:3,
+    img:s1,
+    title:"Avenues is a Cloudera System Integration partner",
+    description:"Avenues can leverage the IRI Voracity data management platform — powered by CoSort or Hadoop — to consolidate and accelerate the life-cycle processes of data discovery, integration, migration, governance, and analytics. Voracity is a uniquely ergonomic one-stop-solution-shop for big data, and an affordable ETL alternative that delivers multiple design and deployment options in a managed metadata infrastructure and single pane of glass.",
+    
+    },
+   ]
+
+export const certifications =[
+  cert1,cert2,cert3,cert4,cert5,cert6,cert7,cert8
+]

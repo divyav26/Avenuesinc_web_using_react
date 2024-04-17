@@ -52,7 +52,7 @@ const Navbar = () => {
           <NavLink to='/about'  className='{({ isActive }) =>
               isActive ? "text-red-500" : ""} hover:text-red-500'>ABOUT US</NavLink>
 
-          <NavLink to='' onClick={()=>setServices((prev)=>!prev)} className='{({ isActive }) =>
+          <NavLink to='' onClick={()=>setServices((prev)=>!prev)}  className='{({ isActive }) =>
               isActive ? "text-red-500" : ""} hover:text-red-500 flex justify-center items-center relative'>OUR SERVICES<IoIosArrowDown className='text-xs' />
                {
                 services &&(
@@ -83,7 +83,9 @@ const Navbar = () => {
                       Clients.map((item)=>{
                         return(
                             <div className='flex items-center text-sm px-[1rem]'>
-                              <Link className='m-1' to={item.path}>{item.title}</Link>
+                              <Link className='m-1' to={item.path}>
+                                {item.title}
+                              </Link>
                             </div>
                         )
                       })

@@ -103,9 +103,9 @@ const cardVariants = {
                 {
                   list.map((item)=>{
                     return(
-                    <div className=''>
-                        <p className='flex text-sm'><GoDotFill />{item}</p>
-                      </div>
+                    <ul className='text-sm list-disc'>
+                        <li className='flex text-sm'>{item}</li>
+                      </ul>
                     )
                   })
                 }

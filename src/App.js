@@ -5,6 +5,11 @@ import Contact from './pages/Contact';
 import Ourclients from './pages/clients/Ourclients';
 import StrategicPartnership from './pages/clients/StrategicPartnership';
 import Certifications from './pages/clients/Certifications';
+import Cloudapplication from './pages/services/Cloudapplication';
+import CloudStrategy from './pages/services/CloudStrategy';
+import Bigdata from './pages/services/Bigdata';
+import Datawarehousing from './pages/services/Datawarehousing';
+import ITservices from './pages/services/ITservices';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +25,27 @@ const router = createBrowserRouter([
     element:<Contact />,
   },
 
+  {
+    path:'/Cloudapplication',
+    element:<Cloudapplication />
+  },
+
+  {
+    path:'/CloudStrategy',
+    element:<CloudStrategy />
+  },
+  {
+    path:'/bigdata',
+    element:<Bigdata />
+  },
+  {
+    path:'/datawarehousing',
+    element:<Datawarehousing />
+  },
+  {
+    path:'/ITservices',
+    element:<ITservices />
+  },
   {
     path:'/Ourclients',
     element:<Ourclients />,

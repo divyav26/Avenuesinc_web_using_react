@@ -42,7 +42,7 @@ const Certifications = () => {
       {
         details.map((item)=>{
           return(
-            <ul className='mx-[2rem] my-[0.5rem]'>
+            <ul className='mx-[2rem] my-[0.5rem] list-disc'>
               <li>{item}</li>
             </ul>
           )

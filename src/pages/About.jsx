@@ -31,7 +31,7 @@ const About = () => {
       </div>
       <div className="lg:flex mb-14">
         <div className="lg:w-[50%]">
-          <img src={bannerabout} alt="about" className='h-[160vh]' />
+          <img src={bannerabout} alt="about" className='lg:h-[160vh]' />
         </div>
         <div className="lg:w-[50%] bg-[#f4f4f5] lg:p-14 p-5">
           <h1 className="text-black lg:text-5xl text-4xl font-bold">About Us</h1>

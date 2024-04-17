@@ -14,7 +14,7 @@ const Ourclients = () => {
             Our Clients
           </h1>
           <p className="text-base text-white p-4">
-            <NavLink to='/'>Home</NavLink>/
+              <NavLink to='/'>Home</NavLink>/
              <NavLink to='/Ourclients'>Our clients</NavLink>
           </p>
         </div>

@@ -2,6 +2,8 @@ import React from 'react'
 import Layout from '../components/Layout'
 import banner from '../imgs/bannerA.jpg'
 import contact from '../imgs/contact.jpg'
+import ReCAPTCHA from "react-google-recaptcha";
+
 
 const Contact = () => {
   return (
@@ -20,29 +22,26 @@ const Contact = () => {
           alt="banner"
         />
       </div>
-      <div className="lg:flex justify-between py-1 px-2 lg:px-[5rem] ">
+      <div className="lg:flex justify-between py-1 px-2 lg:px-[5rem] gap-[1.5rem] ">
         <div className="border-solid p-2 relative border border-gray-200 rounded shadow-xl">
           <h1 className="text-black lg:text-3xl font-bold mb-4">
             Headquarter (USA)
             <hr />
           </h1>
-          <div className="p-4 mr-6 text-[#57534e]">
-            <p className="mb-2 flex items-center">
-              <span className="inline-block w-2 h-2 bg-black mr-2 rounded-full"></span>
-              Princeton Junction, New Jersey(NJ) – 08550
-            </p>
-            <p className="mb-2 flex items-center">
-              <span className="inline-block w-2 h-2 bg-black mr-2 rounded-full"></span>
-              Director : Anupam Gupta
-            </p>
-            <p className="mb-2 flex items-center">
-              <span className="inline-block w-2 h-2 bg-black mr-2 rounded-full"></span>
-              Phone : +1 609-945-1160
-            </p>
-            <p className="mb-2 flex items-center">
-              <span className="inline-block w-2 h-2 bg-black mr-2 rounded-full"></span>
-              Email : anupam@avenuesinc.com
-            </p>
+          <div className="p-4 ml-2 mr-6 text-[#57534e]">
+            <ul className="list-disc">
+              <li>Princeton Junction, New Jersey(NJ) – 08550</li>
+
+              <li>
+                Director : Anupam Gupta
+              </li>
+              <li>
+                Phone : +1 609-945-1160
+              </li>
+              <li>
+                Email : anupam@avenuesinc.com
+              </li>
+            </ul>
           </div>
         </div>
         <div className="border-solid p-2 border border-gray-200 rounded relative shadow-xl">
@@ -50,19 +49,21 @@ const Contact = () => {
             Regional Office (USA)
             <hr />
           </h1>
-          <div className="p-4 mr-6 text-[#57534e]">
-            <p className="mb-2 flex items-center">
-              <span className="inline-block w-2 h-2 bg-black mr-2 rounded-full"></span>
+          <div className="p-4 ml-2 mr-6 text-[#57534e]">
+            <ul className="list-disc">
+            <li>
+              
               57 West 57th Street, Suite 300, New York, NY 10019
-            </p>
-            <p className="mb-2 flex items-center">
-              <span className="inline-block w-2 h-2 bg-black mr-2 rounded-full"></span>
+            </li>
+            <li>
+              
               Phone : +1 609-945-1160
-            </p>
-            <p className="mb-2 flex items-center">
-              <span className="inline-block w-2 h-2 bg-black mr-2 rounded-full"></span>
+            </li>
+            <li>
+              
               Email: sales@avenuesinc.com
-            </p>
+              </li>
+              </ul>
           </div>
         </div>
         <div className="border-solid p-2 border border-gray-200 rounded relative shadow-xl">
@@ -70,19 +71,21 @@ const Contact = () => {
             Office in India
             <hr />
           </h1>
-          <div className="p-4 mr-6 text-[#57534e]">
-            <p className="mb-2 flex text-[#57534e] items-center">
-              <span className="inline-block w-2 h-2 bg-black mr-2 rounded-full"></span>
+          <div className="p-4 ml-2 mr-6 text-[#57534e]">
+            <ul className="list-disc">
+            <li>
+              
               C-26, South City II, Gurgaon Haryana, 122001 (INDIA)
-            </p>
-            <p className="mb-2 flex text-[#57534e] items-center">
-              <span className="inline-block w-2 h-2 bg-black mr-2 rounded-full"></span>
+            </li>
+            <li>
+             
               Phone: +91 840-035-4555
-            </p>
-            <p className="mb-2 flex text-[#57534e] items-center">
-              <span className="inline-block w-2 h-2 bg-black mr-2 rounded-full"></span>
+            </li>
+            <li>
+              
               Email : sales@avenuesinc.com
-            </p>
+              </li>
+              </ul>
           </div>
         </div>
       </div>
@@ -96,35 +99,39 @@ const Contact = () => {
             <div className="ml-6">
               <h1 className="ml-4 text-lg font-semibold">Recruiting Team</h1>
               <div className="mt-1 text-[#57534e]">
-                <p className="mb-1 flex items-center">
-                  <span className="inline-block w-2 h-2 bg-black mr-2 rounded-full"></span>
+                <ul className="list-disc">
+                <li>
+                  
                   Name : Adarsh Shukla
-                </p>
-                <p className="mb-1 flex items-center">
-                  <span className="inline-block w-2 h-2 bg-black mr-2 rounded-full"></span>
+                </li>
+                <li>
+                  
                   Phone : 609-342-5250
-                </p>
-                <p className="mb-1 flex items-center">
-                  <span className="inline-block w-2 h-2 bg-black mr-2 rounded-full"></span>
+                </li>
+                <li>
+                  
                   Email : hr@avenuesinc.com
-                </p>
+                  </li>
+                  </ul>
               </div>
             </div>
             <div>
               <h1 className="ml-4 text-lg font-semibold">Recruiting Team</h1>
               <div className="mt-1 text-[#57534e]">
-                <p className="mb-2 flex items-center">
-                  <span className="inline-block w-2 h-2 bg-black mr-2 rounded-full"></span>
+                <ul className="list-disc">
+                <li>
+                  
                   Name : David Miller
-                </p>
-                <p className="mb-2 flex items-center">
-                  <span className="inline-block w-2 h-2 bg-black mr-2 rounded-full"></span>
+                </li>
+                <li>
+                  
                   Phone : 609-342-5590
-                </p>
-                <p className="mb-2 flex items-center">
-                  <span className="inline-block w-2 h-2 bg-black mr-2 rounded-full"></span>
+                </li>
+                <li>
+                  
                   Email : hr2@avenuesinc.com
-                </p>
+                  </li>
+                  </ul>
               </div>
             </div>
             <div>
@@ -132,18 +139,20 @@ const Contact = () => {
                 Procurement Manager
               </h1>
               <div className="mt-1 text-[#57534e]">
-                <p className="mb-2 flex items-center">
-                  <span className="inline-block w-2 h-2 bg-black mr-2 rounded-full"></span>
+                <ul className="list-disc">
+                <li>
+                  
                   Name : Madhu Tyagi
-                </p>
-                <p className="mb-2 flex items-center">
-                  <span className="inline-block w-2 h-2 bg-black mr-2 rounded-full"></span>
+                </li>
+                <li>
+                  
                   Phone: (609) 491-3910
-                </p>
-                <p className="mb-2 flex items-center">
-                  <span className="inline-block w-2 h-2 bg-black mr-2 rounded-full"></span>
+                </li>
+                <li>
+                  
                   Email : supplies@avenuesinc.com
-                </p>
+                  </li>
+                  </ul>
               </div>
             </div>
             <div>
@@ -151,14 +160,16 @@ const Contact = () => {
                 HR & Administration
               </h1>
               <div className="mt-1 text-[#57534e]">
-                <p className="mb-2 flex items-center">
-                  <span className="inline-block w-2 h-2 bg-black mr-2 rounded-full"></span>
+                <ul className="list-disc">
+                <li>
+                  
                   Name : Ms. Neha
-                </p>
-                <p className="mb-2 flex items-center">
-                  <span className="inline-block w-2 h-2 bg-black mr-2 rounded-full"></span>
+                </li>
+                <li>
+                  
                   Email : admin@avenuesinc.com
-                </p>
+                  </li>
+                  </ul>
               </div>
             </div>
           </div>
@@ -242,6 +253,12 @@ const Contact = () => {
                     rows={30}
                   />
                 </div>
+                <div className='m-2'>
+                  <ReCAPTCHA
+                    sitekey="6LegpbgpAAAAAD4M2jzmYcEo1VrrRHDwOUX2pimn"/>
+
+            </div>
+                
                 <button
                   type="submit"
                   className="bg-red-600 text-white text-base font-medium py-4 px-5 w-full"

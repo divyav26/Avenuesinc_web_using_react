@@ -48,7 +48,7 @@ const Testimonial = () => {
             testimonial.map((item)=>{
                 return(
                     <>
-                    <div className='border-2 border-gray-300 p-[2rem] text-center w-[90%]'>
+                    <div className='border-2 border-gray-300 p-[2rem] text-center w-[90%] h-[50vh]'>
                         <p className='text-sm text-gray-500'>{item.description}</p>
                         <h1 className='text-xl font-bold'>{item.title}</h1>
                         <h3 className='text-sm text-gray-500'>{item.sub_title}</h3>

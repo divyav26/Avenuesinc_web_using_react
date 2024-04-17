@@ -39,42 +39,45 @@ import cert8 from '../imgs/clients/certification9.jpg'
 
 
 export const Services = [
-    {
+      {
         id:1,
-        title:"Cloud Strategy & Implementation",
-        path:'/',
+        title:"Cloud Application Development",
+        path:'/Cloudapplication',
         cname:"nav-item",
     },
     {
         id:2,
-        title:"Cloud Application Development",
-        path:'/',
+        title:"Cloud Strategy & Implementation",
+        path:'/CloudStrategy',
         cname:"nav-item",
     },
     {
-        id:3,
-        title:"Data Warehouseing & BusinessIntelligence",
-        path:'/',
-        cname:"nav-item",
-    },
+      id:3,
+      title:"Big Data Analytics",
+      path:'/bigdata',
+      cname:"nav-item",
+  },
+    
     {
         id:4,
-        title:"Big Data Analytics",
-        path:'/',
+        title:"Data Warehouseing & BusinessIntelligence",
+        path:'/datawarehousing',
         cname:"nav-item",
     },
     {
-        id:5,
-        title:"IT Staffing & Services",
-        path:'/',
-        cname:"nav-item",
-    },
+      id:5,
+      title:"Goods & Supplies",
+      path:'/',
+      cname:"nav-item",
+  },
+    
     {
         id:6,
-        title:"Goods & Supplies",
-        path:'/',
+        title:"IT Staffing & Services",
+        path:'/ITservices',
         cname:"nav-item",
-    }
+    },
+   
 
 ]
 
@@ -110,19 +113,19 @@ export const Clients = [
         id:1,
         title:"Our Clients",
         path:'/Ourclients',
-        cname:"nav-item",
+        cname:"clients",
     },
     {
         id:2,
         title:"Strategic Partnership",
         path:'/StrategicPartnership',
-        cname:"nav-item",
+        cname:"clients",
     },
     {
         id:3,
         title:"Certifications",
         path:'/Certifications',
-        cname:"nav-item",
+        cname:"clients",
     }
 ]
 
@@ -369,4 +372,46 @@ export const firstDropdowns = [
 
 export const certifications =[
   cert1,cert2,cert3,cert4,cert5,cert6,cert7,cert8
+]
+
+export const dropdownData = [
+  {
+    title: "Cloud Architecture",
+    content: [
+      "Cloud project success depends upon having the most suitable architecture",
+      "Based on our client specific objectives, our team will identify the most suitable cloud components to create a robust and scalable solution",
+      "We can also perform assessment of your existing architecture and provide our recommendations",
+    ],
+  },
+  {
+    title: "Cloud Application Development Services",
+    content: [
+      "Avenues has been providing to enterprises and the startups with a range of cloud application development services",
+    ],
+  },
+  {
+    title: "Cloud Solution Design",
+    content: [
+      "Our technical team with over three decades of experience can help design a powerful, robust cloud-based application",
+    ],
+  },
+  {
+    title: "Cloud Infrastructure Design",
+    content: [
+      "We create the most appropriate cloud infrastructure and the components and it could be a public, private or hybrid cloud, based on your business requirements",
+    ],
+  },
+  {
+    title: "Cloud Migration",
+    content: [
+      "We migrate your existing applications and data to cloud using various tools and techniques including AWS / Azure / Google Migration Services",
+    ],
+  },
+];
+
+export const ITStaffing =[
+  "Avenues International Inc. is dedicated to connecting businesses with the most talented and qualified IT professionals. With the rapid pace of technological advancement, finding the right IT experts is essential for staying competitive in today's market.",
+  "Our team of experienced recruiters understands the unique demands of the IT industry, and we pride ourselves on our ability to match the right candidates with the right companies. Whether you're seeking a seasoned software developer, a skilled cybersecurity analyst, or a top-tier IT project manager, we have the expertise and resources to fulfill your staffing needs.",
+  "We have partnered with major corporations and have helped them successfully execute their IT projects in time and budget by providing the most suitable IT resources.",
+  "Partner with us and let us help you build a dynamic IT team that drives innovation, boosts productivity, and ensures your company's success in the digital age."
 ]

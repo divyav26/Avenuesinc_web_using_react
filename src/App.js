@@ -10,6 +10,7 @@ import CloudStrategy from './pages/services/CloudStrategy';
 import Bigdata from './pages/services/Bigdata';
 import Datawarehousing from './pages/services/Datawarehousing';
 import ITservices from './pages/services/ITservices';
+import Goodssuplies from './pages/services/Goodssuplies';
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
   {
     path:'/ITservices',
     element:<ITservices />
+  },
+  {
+    path:'/Goodssuplies',
+    element:<Goodssuplies />
   },
   {
     path:'/Ourclients',

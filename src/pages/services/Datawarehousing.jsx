@@ -107,7 +107,7 @@ const Datawarehousing = () => {
           alt="banner"
         />
       </section>
-      <section className="lg:flex h-[100vh] bg-[#f4f4f5]">
+      <section className="lg:flex lg:h-[100vh] bg-[#f4f4f5]">
         <div className="lg:px-[2rem] p-4 lg:w-[50%]">
           <h1 className="text-slate-900 lg:text-5xl text-2xl font-bold">
             Data Warehousing & BI
@@ -137,7 +137,7 @@ const Datawarehousing = () => {
           <img
             src={data}
             alt="strategy"
-            className="h-[35vh] w-[100%] lg:w-[100%] lg:h-[100vh]"
+            className="w-[100%] lg:w-[100%] lg:h-[100vh]"
           />
         </div>
       </section>

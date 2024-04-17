@@ -26,7 +26,7 @@ const ITservices = () => {
         />
       </div>
 
-      <div className='lg:flex lg:justify-between lg:items-center h-[150vh] w-full bg-gray-200'>
+      <div className='lg:flex lg:justify-between lg:items-center lg:h-[150vh] w-full bg-gray-200'>
         <div className='lg:w-[50%]'>
             <img src={staffing} alt='logo' className='lg:h-[150vh]' />
         </div>

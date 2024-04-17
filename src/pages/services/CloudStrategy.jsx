@@ -69,7 +69,7 @@ const CloudStrategy = () => {
           <img
             src={strategy}
             alt="strategy"
-            className="w-[15rem] h-[10rem] lg:w-[100%] lg:h-[33rem]"
+            className="h-[10rem] w-[100%] lg:h-[33rem]"
           />
         </div>
       </section>

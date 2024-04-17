@@ -67,7 +67,7 @@ export const Services = [
     {
       id:5,
       title:"Goods & Supplies",
-      path:'/',
+      path:'/Goodssuplies',
       cname:"nav-item",
   },
     

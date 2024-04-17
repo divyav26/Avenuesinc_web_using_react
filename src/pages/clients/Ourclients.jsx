@@ -32,7 +32,7 @@ const Ourclients = () => {
         {
             imgClients.map((item)=>{
                 return(
-                 <div className='border border-blue-300 w-[100%] h-[20vh] flex justify-center items-center'>
+                 <div className='border border-blue-300 w-[100%] h-[40vh] flex justify-center items-center'>
                     <img src={item} alt='logo' className='w-[40%]'/>
                  </div>   
                 )
